@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Agregação e Composição
 import 'dart:convert';
 
@@ -77,9 +76,8 @@ void main() {
   //    coleção de funcionario
   // 6. Printar no formato JSON o objeto Equipe Projeto.
 }
-=======
+
 // Agregação e Composição
-import 'dart:convert';
 
 class Dependente {
   late String _nome;
@@ -156,4 +154,3 @@ void main() {
   //    coleção de funcionario
   // 6. Printar no formato JSON o objeto Equipe Projeto.
 }
->>>>>>> 06f53c26b969343c9b1fca14a0f263bdf157c574
