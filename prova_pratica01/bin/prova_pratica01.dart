@@ -126,7 +126,10 @@ void main() async {
   print(jsonString);
 
   // Configura as credenciais SMTP do Gmail
-  final smtpServer = gmail('raul.carvalho16@aluno.ifce.edu.br', 'senha');
+  final smtpServer = gmail(
+    'raul.carvalho16@aluno.ifce.edu.br',
+    'ztuj umrg emku qgxv',
+  );
 
   // Cria uma mensagem de e-mail
   final message =
@@ -135,9 +138,9 @@ void main() async {
           'raul.carvalho16@aluno.ifce.edu.br',
           'Raúl Simioni de Carvalho',
         )
-        ..recipients.add('pestebubonika5001@gmail.com')
-        ..subject = 'Teste SMTP dart'
-        ..text = 'Essa mensagem é um teste da avaliação 05 de dart';
+        ..recipients.add('taveira@ifce.edu.br')
+        ..subject = 'Prova prática EMAIL JSON '
+        ..text = jsonString;
 
   try {
     // Envia o e-mail usando o servidor SMTP do Gmail
